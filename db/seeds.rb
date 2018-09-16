@@ -5,9 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
 require "faker"
-
 # Create users with random IP addresses, for use in demonstrating tests
 # involving external HTTP services.
 20.times do
