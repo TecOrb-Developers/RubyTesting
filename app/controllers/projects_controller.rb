@@ -1,6 +1,5 @@
 class ProjectsController < ApplicationController
-  before_action :set_project,
-    only: [:show, :edit, :update, :destroy, :complete]
+  before_action :set_project, only: [:show, :edit, :update, :destroy, :complete]
   before_action :project_owner?, except: [:index, :new, :create]
 
   # GET /projects
